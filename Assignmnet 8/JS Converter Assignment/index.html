@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 text-center mb3">Converter</h1>
+        <form>
+            <h4 class="display-5 text-left mb-3">Weight</h4>
+            <div class="form-group">
+                <input type="number" id="kgsInput" class="form-control from-control-lg" 
+                placeholder="Enter Kilograms">
+                <button type="button" class="btn btn-primary" id="weigBtn">Convert</button>
+            </div>
+        </form>
+        <div class="card card-primary mb-2">
+            <div class="card-block">
+                <h4>Pounds:</h4>
+                <div id="lbsOutput"></div>
+            </div>
+        </div>
+        <form>
+            <h4 class="display-5 text-left mb-3">Measurements</h4>
+            <div class="form-group">
+                <input type="number" id="feetInput" class="form-control from-control-lg" 
+                placeholder="Enter Feets">
+                <button type="button" class="btn btn-success" id="mesrBtn">Convert</button>
+            </div>
+        </form>
+        <div class="card card-success mb-2">
+            <div class="card-block">
+                <h4>Centimeter:</h4>
+                <div id="cmsOutput"></div>
+            </div>
+        </div>
+        <form>
+            <h4 class="display-5 text-left mb-3">Currency</h4>
+            <div class="form-group">
+                <input type="number" id="usdInput" class="form-control from-control-lg" 
+                placeholder="Enter USD">
+                <button type="button" class="btn btn-info" id="currBtn">Convert</button>
+            </div>
+        </form>
+        <div class="card card-info mb-2">
+            <div class="card-block">
+                <h4>INR:</h4>
+                <div id="inrOutput"></div>
+            </div>
+        </div>
+        <form>
+            <h4 class="display-5 text-left mb-3">Pressure</h4>
+            <div class="form-group">
+                <input type="number" id="pascalInput" class="form-control from-control-lg" 
+                placeholder="Enter Pascal">
+                <button type="button" class="btn btn-info" id="presBtn">Convert</button>
+            </div>
+        </form>
+        <div class="card card-danger mb-2">
+            <div class="card-block">
+                <h4>Bar:</h4>
+                <div id="torrOutput"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
