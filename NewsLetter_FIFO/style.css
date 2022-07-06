@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.fifo-icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100vw;
+}
+.hr-light{
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.275);
+  border: none;
+}
+.hr-dark{
+  margin-top: 2px;
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+.main{
+  border-top: 1px solid rgba(0, 0, 0, 0.275);;
+  background-color: rgba(0, 162, 255, 0.058);
+  margin: 0% 20%;
+  padding: 1% 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+.main > h3{
+  font-size: 15px;
+}
+.space-header{
+  padding: 1%;
+  display: flex;
+  gap: 1%;
+  justify-content: center;
+  align-items: center;
+}
+.space-icon{
+  border-radius: 50%;
+  height: 50px;
+}
+.space-name{
+  font-size: 20px;
+}
+.post-content > h3{
+  font-size: 20px;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+.post{
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+  gap: 2%;
+}
+.post-img{
+  height: 120px;
+  width: 120px;
+}
+.post-content{
+  display: flex;
+  flex-direction: column;
+}
+.post-profile-img{
+  border-radius: 50%;
+  height: 30px;
+}
+.post-footer{
+  display: flex;
+  align-items: center ;
+  gap: 1%;
+}
+.post-footer > p{
+  font-size: small;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.post-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
