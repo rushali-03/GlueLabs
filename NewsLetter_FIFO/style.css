@@ -17,70 +17,66 @@
   margin: 0 3%;
   border: none;
 }
-
-.hr-last{
-  height: 1px;
-  background-color: rgba(0, 0, 0, 0.275);
-  border: none;
-  margin-bottom: 20px;
-  margin: 0% 20%;
-}
 .posts{
-  border: 1px solid rgba(0, 0, 0, 0.275);
-  background-color: rgba(0, 162, 255, 0.058);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 .main{
-  /* border-top: 1px solid rgba(0, 0, 0, 0.275); */
+  background-color: rgba(240, 239, 239, 0.407);
+  border: 1px solid rgba(0, 0, 0, 0.275);
   border-radius: 10px;
   margin: 0% 20%;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
 }
 .main > h3{
   padding: 2%;
   font-size: 15px;
-  border: 1px solid rgba(0, 0, 0, 0.275);
-  background-color: rgba(0, 162, 255, 0.058);
-  border-radius: 10px;
+  text-align: center
 }
-.space-header{
-  padding: 1%;
+.space-left{
   display: flex;
-  gap: 1%;
-  background-color: white;
   justify-content: center;
   align-items: center;
+}
+.space-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+}
+.space-btn{
+  height: 40px;
+  background-color: rgb(96, 198, 202);
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
 }
 .space-icon{
   border-radius: 50%;
   height: 50px;
+  margin-right: 10px
 }
 .space-name{
-  font-size: 20px;
-}
-.post-content > h3{
-  font-size: 20px;
-  margin-bottom: 1%;
-  cursor: pointer;
+  font-size: 17px;
 }
 .post-content{
-  display: flex;
-  flex-direction: column;
+  padding-top: 1%;
+  font-size: 1rem;
 }
 .post-profile-img{
   border-radius: 50%;
   height: 30px;
 }
-.post-footer{
+.post-header{
   display: flex;
   align-items: center ;
   gap: 1%;
 }
-.post-footer > p{
+.post-header > p{
   font-size: small;
   font-weight: bolder;
-  cursor: pointer;
 }
 .post-main{
   display: flex;
@@ -88,4 +84,8 @@
   justify-content: space-between;
   gap: 10px;
   padding: 2% 3%;
+}
+.post-main a{
+  color: inherit;
+  text-decoration: none;
 }
